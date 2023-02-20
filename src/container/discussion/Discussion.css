@@ -1,0 +1,14 @@
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px auto;
+  text-align: left;
+}
+.all-comments {
+  display: block;
+  padding: 10px;
+  margin: 10px auto;
+  width: 620px;
+  align-items: center;
+}

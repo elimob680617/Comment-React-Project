@@ -1,0 +1,30 @@
+.fullComment {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  width: 600px;
+  /* height: 200px; */
+  background-color: #ccfbf1;
+  color: #000;
+  border: 1px solid #14b8a6;
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.fullComment span {
+  width: 100%;
+
+  margin: 10px 0;
+}
+
+.fullComment button {
+  padding: 8px 16px;
+  background-color: #14b8a6;
+  outline: none;
+  border: 1px solid #14b8a6;
+  color: #fff;
+  border-radius: 5px;
+}

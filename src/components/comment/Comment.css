@@ -1,0 +1,33 @@
+.user-comment {
+  margin: 20px auto;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.comment {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  /* width: 200px;
+  height: 200px; */
+  background-color: #ccfbf1;
+  border: 1px solid #14b8a6;
+  color: #000;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px auto;
+  padding: 10px;
+  font-size: small;
+}
+
+.desc {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
